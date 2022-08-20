@@ -619,6 +619,10 @@ header {
   padding-top: 2rem;
 }
 
+.title h1 {
+  font-size: var(--header-size);
+}
+
 .title ul.breadcrumb {
   padding: 10px 16px;
   list-style: none;
