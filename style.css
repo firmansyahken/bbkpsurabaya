@@ -1311,3 +1311,13 @@ header {
     grid-template-columns: repeat(1, 1fr);
   }
 }
+
+@media (max-width: 468px) {
+  :root {
+    --title-size: 28px;
+    --header-size: 20px;
+    --body-size: 13px;
+    --body-size-sm: 12px;
+    --action-size: 15px;
+  }
+}
