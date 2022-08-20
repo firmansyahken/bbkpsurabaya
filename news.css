@@ -790,6 +790,35 @@ header {
   color: var(--secondary-color);
 }
 
+.main .pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 20px;
+  padding: 6rem 1.5rem 2rem 1.5rem;
+  box-sizing: border-box;
+}
+
+.main .pagination a {
+  padding: 10px 15px;
+  box-sizing: border-box;
+  border: 1.5px solid var(--gray-color);
+  font-size: var(--body-size);
+  color: black;
+  text-decoration: none;
+}
+
+.main .pagination a.active {
+  background-color: var(--gray-color);
+}
+
+.main .pagination a:nth-child(1),
+.main .pagination a:nth-last-child(1) {
+  border: none;
+  background-color: var(--dark-color);
+  color: white;
+}
+
 .footer {
   background-color: var(--dark-color);
 }
@@ -852,6 +881,10 @@ header {
 
   .main {
     width: 100%;
+  }
+
+  .main .pagination {
+    margin-bottom: 4rem;
   }
 
   .sidecontent {
