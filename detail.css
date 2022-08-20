@@ -744,6 +744,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-top: 1.5px solid var(--gray-color);
+    padding-top: 1rem;
 }
 
 .main .blog .blog_footer .blog_footer_tag {
