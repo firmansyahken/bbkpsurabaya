@@ -10,6 +10,7 @@
     color: inherit; }
   .calendar header {
     background-color: white;
+    z-index: -20;
   }
   .calendar header .simple-calendar-btn {
     display: inline-block;
