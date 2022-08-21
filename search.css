@@ -213,7 +213,7 @@ body {
     display: flex;
     align-items: baseline;
     column-gap: 10px;
-    padding: 10px;
+    padding: 10px 0;
 }
 
 .main .blog .blog_item .blog_header h2 {
