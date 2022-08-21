@@ -603,7 +603,6 @@ header {
   font-size: var(--body-size);
 }
 
-
 .wrapper {
   width: 100%;
   margin: auto;
@@ -617,6 +616,10 @@ header {
   align-items: center;
   justify-content: space-between;
   padding-top: 2rem;
+}
+
+.title h1 {
+  font-size: var(--header-size);
 }
 
 .title ul.breadcrumb {
@@ -726,6 +729,13 @@ header {
   text-decoration: none;
   font-size: var(--body-size);
   color: black;
+}
+
+.sidecontent .calender{
+  margin-top: 20px;
+  padding: 1rem;
+  box-sizing: border-box;
+  border: 1.5px solid var(--gray-color);  
 }
 
 .main .blog {
