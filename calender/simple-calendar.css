@@ -59,7 +59,9 @@
     font-size: 1.2em;
     font-weight: 600; }
   .calendar td {
-    padding: .8em .1em; }
+    padding: .8em .1em;
+    font-size: 13px;
+  }
   .calendar .day {
     position: relative;
     display: inline-block;
